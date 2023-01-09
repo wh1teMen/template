@@ -8,15 +8,190 @@
        
         Title="Калькулятор" Height="450" Width="360" MinHeight="400" MinWidth="320" WindowStartupLocation="CenterScreen" KeyDown="Window_KeyDown" Icon="/1486564177-finance-finance-calculator_81497.png" >
     <Window.Resources>
-        <ControlTemplate TargetType="Button" x:Key="btnTemplate">
-            <Border/>
-           
+        <ControlTemplate TargetType="Button" x:Key="btn7">
+            <Border   Background="DodgerBlue" BorderBrush="Black" BorderThickness="3"
+                    Height="80" Width="84" >
+            <ContentControl Grid.Column="0" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center"  Content="7" />
+            </Border>
             <ControlTemplate.Triggers>
                 <Trigger Property="IsMouseOver" Value="true">
                     <Setter Property="FontWeight" Value="Bold" />
                 </Trigger>
             </ControlTemplate.Triggers>
             </ControlTemplate>
+        <ControlTemplate TargetType="Button" x:Key="btn8">
+            <Border   Background="DodgerBlue" BorderBrush="Black" BorderThickness="3"
+                    Height="80" Width="84" >
+                <ContentControl Grid.Column="0" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center"  Content="8" />
+            </Border>
+            <ControlTemplate.Triggers>
+                <Trigger Property="IsMouseOver" Value="true">
+                    <Setter Property="FontWeight" Value="Bold" />
+                </Trigger>
+            </ControlTemplate.Triggers>
+        </ControlTemplate>
+
+        <ControlTemplate TargetType="Button" x:Key="btn9">
+            <Border   Background="DodgerBlue" BorderBrush="Black" BorderThickness="3"
+                    Height="80" Width="84" >
+                <ContentControl Grid.Column="0" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center"  Content="9" />
+            </Border>
+            <ControlTemplate.Triggers>
+                <Trigger Property="IsMouseOver" Value="true">
+                    <Setter Property="FontWeight" Value="Bold" />
+                </Trigger>
+            </ControlTemplate.Triggers>
+        </ControlTemplate>
+
+        <ControlTemplate TargetType="Button" x:Key="btn4">
+            <Border   Background="DodgerBlue" BorderBrush="Black" BorderThickness="3"
+                    Height="80" Width="84" >
+                <ContentControl Grid.Column="0" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center"  Content="4" />
+            </Border>
+            <ControlTemplate.Triggers>
+                <Trigger Property="IsMouseOver" Value="true">
+                    <Setter Property="FontWeight" Value="Bold" />
+                </Trigger>
+            </ControlTemplate.Triggers>
+        </ControlTemplate>
+        <ControlTemplate TargetType="Button" x:Key="btn_x">
+            <Border   Background="DodgerBlue" BorderBrush="Black" BorderThickness="3"
+                    Height="80" Width="84" >
+                <ContentControl Grid.Column="0" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center"  Content="*" />
+            </Border>
+            <ControlTemplate.Triggers>
+                <Trigger Property="IsMouseOver" Value="true">
+                    <Setter Property="FontWeight" Value="Bold" />
+                </Trigger>
+            </ControlTemplate.Triggers>
+        </ControlTemplate>
+        <ControlTemplate TargetType="Button" x:Key="btn5">
+            <Border   Background="DodgerBlue" BorderBrush="Black" BorderThickness="3"
+                    Height="80" Width="84" >
+                <ContentControl Grid.Column="0" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Stretch"  Content="5" />
+            </Border>
+            <ControlTemplate.Triggers>
+                <Trigger Property="IsMouseOver" Value="true">
+                    <Setter Property="FontWeight" Value="Bold" />
+                </Trigger>
+            </ControlTemplate.Triggers>
+        </ControlTemplate>
+        <ControlTemplate TargetType="Button" x:Key="btn6">
+            <Border   Background="DodgerBlue" BorderBrush="Black" BorderThickness="3"
+                    Height="80" Width="84" >
+                <ContentControl Grid.Column="0" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Stretch"  Content="6"/>
+            </Border>
+            <ControlTemplate.Triggers>
+                <Trigger Property="IsMouseOver" Value="true">
+                    <Setter Property="FontWeight" Value="Bold" />
+                </Trigger>
+            </ControlTemplate.Triggers>
+        </ControlTemplate>
+
+        <ControlTemplate TargetType="Button" x:Key="btn_minus">
+            <Border   Background="DodgerBlue" BorderBrush="Black" BorderThickness="3"
+                    Height="80" Width="84" >
+                <ContentControl Grid.Column="0" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center"  Content="-"/>
+            </Border>
+            <ControlTemplate.Triggers>
+                <Trigger Property="IsMouseOver" Value="true">
+                    <Setter Property="FontWeight" Value="Bold" />
+                </Trigger>
+            </ControlTemplate.Triggers>
+        </ControlTemplate>
+        <ControlTemplate TargetType="Button" x:Key="btn_1">
+            <Border   Background="DodgerBlue" BorderBrush="Black" BorderThickness="3"
+                    Height="80" Width="84" >
+                <ContentControl Grid.Column="0" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center"  Content="1"/>
+            </Border>
+            <ControlTemplate.Triggers>
+                <Trigger Property="IsMouseOver" Value="true">
+                    <Setter Property="FontWeight" Value="Bold" />
+                </Trigger>
+            </ControlTemplate.Triggers>
+        </ControlTemplate>
+        <ControlTemplate TargetType="Button" x:Key="btn_2">
+            <Border   Background="DodgerBlue" BorderBrush="Black" BorderThickness="3"
+                    Height="80" Width="84" >
+                <ContentControl Grid.Column="0" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center"  Content="2"/>
+            </Border>
+            <ControlTemplate.Triggers>
+                <Trigger Property="IsMouseOver" Value="true">
+                    <Setter Property="FontWeight" Value="Bold" />
+                </Trigger>
+            </ControlTemplate.Triggers>
+        </ControlTemplate>
+
+        <ControlTemplate TargetType="Button" x:Key="btn_3">
+            <Border   Background="DodgerBlue" BorderBrush="Black" BorderThickness="3"
+                    Height="80" Width="84" >
+                <ContentControl Grid.Column="0" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center"  Content="3"/>
+            </Border>
+            <ControlTemplate.Triggers>
+                <Trigger Property="IsMouseOver" Value="true">
+                    <Setter Property="FontWeight" Value="Bold" />
+                </Trigger>
+            </ControlTemplate.Triggers>
+        </ControlTemplate>
+        <ControlTemplate TargetType="Button" x:Key="btn_plus">
+            <Border   Background="DodgerBlue" BorderBrush="Black" BorderThickness="3"
+                    Height="80" Width="84" >
+                <ContentControl Grid.Column="0" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center"  Content="+"/>
+            </Border>
+            <ControlTemplate.Triggers>
+                <Trigger Property="IsMouseOver" Value="true">
+                    <Setter Property="FontWeight" Value="Bold" />
+                </Trigger>
+            </ControlTemplate.Triggers>
+        </ControlTemplate>
+        <ControlTemplate TargetType="Button" x:Key="btn_0">
+            <Border   Background="DodgerBlue" BorderBrush="Black" BorderThickness="3"
+                    Height="80" Width="84" >
+                <ContentControl Grid.Column="0" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center"  Content="0"/>
+            </Border>
+            <ControlTemplate.Triggers>
+                <Trigger Property="IsMouseOver" Value="true">
+                    <Setter Property="FontWeight" Value="Bold" />
+                </Trigger>
+            </ControlTemplate.Triggers>
+        </ControlTemplate>
+        <ControlTemplate TargetType="Button" x:Key="btn_ravno">
+            <Border   Background="DodgerBlue" BorderBrush="Black" BorderThickness="3"
+                    Height="80" Width="84" >
+                <ContentControl Grid.Column="0" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center"  Content="="/>
+            </Border>
+            <ControlTemplate.Triggers>
+                <Trigger Property="IsMouseOver" Value="true">
+                    <Setter Property="FontWeight" Value="Bold" />
+                </Trigger>
+            </ControlTemplate.Triggers>
+        </ControlTemplate>
+        <ControlTemplate TargetType="Button" x:Key="btn_delenie">
+            <Border   Background="DodgerBlue" BorderBrush="Black" BorderThickness="3"
+                    Height="80" Width="84" >
+                <ContentControl Grid.Column="0" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center"  Content="/"/>
+            </Border>
+            <ControlTemplate.Triggers>
+                <Trigger Property="IsMouseOver" Value="true">
+                    <Setter Property="FontWeight" Value="Bold" />
+                </Trigger>
+            </ControlTemplate.Triggers>
+        </ControlTemplate>
+        <ControlTemplate TargetType="Button" x:Key="btn_clear">
+            <Border   Background="DodgerBlue" BorderBrush="Black" BorderThickness="3"
+                    Height="80" Width="84" >
+                <ContentControl Grid.Column="0" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center"  Content="C"/>
+            </Border>
+            <ControlTemplate.Triggers>
+                <Trigger Property="IsMouseOver" Value="true">
+                    <Setter Property="FontWeight" Value="Bold" />
+                </Trigger>
+            </ControlTemplate.Triggers>
+        </ControlTemplate>
+
+
+
+
     </Window.Resources>
     <Grid>        
        
@@ -35,27 +210,27 @@
         </Grid.RowDefinitions>
         <TextBlock x:Name="MyRichTextBox_edit" Grid.ColumnSpan="4" Grid.Row="0" Grid.Column="0"  FontSize="30" MinHeight="80" MinWidth="320"/>
 
-        <Button x:Name="button_7" Template="{btnTemplate}"   Grid.Column="0" Grid.Row="1" Content="7" FontSize="22" Click="button_7_Click" MinHeight="80" MinWidth="80"/>
+        <Button x:Name="button_7" Template="{StaticResource btn7}"   Grid.Column="0" Grid.Row="1" Content="7" FontSize="60" Click="button_7_Click" MinHeight="80" MinWidth="80"/>
 
 
-        <Button x:Name="button_8" Grid.Column="1" Grid.Row="1" Content="8" FontSize="22" Click="button_8_Click" MinHeight="80" MinWidth="80" />
-        <Button x:Name="button_9" Grid.Column="2" Grid.Row="1" Content="9" FontSize="22" Click="button_9_Click" MinHeight="80" MinWidth="80"  />
-        <Button x:Name="button_x" Grid.Column="3" Grid.Row="1" Content="*"  FontSize="22" Click="button_x_Click" MinHeight="80" MinWidth="80"/>
+        <Button x:Name="button_8"  Template="{StaticResource btn8}" Grid.Column="1" Grid.Row="1" Content="8" FontSize="60" Click="button_8_Click" MinHeight="80" MinWidth="80" />
+        <Button x:Name="button_9" Template="{StaticResource btn9}" Grid.Column="2" Grid.Row="1" Content="9" FontSize="60" Click="button_9_Click" MinHeight="80" MinWidth="80"  />
+        <Button x:Name="button_x" Template="{StaticResource btn_x}" Grid.Column="3" Grid.Row="1" Content="*"  FontSize="60" Click="button_x_Click" MinHeight="80" MinWidth="80"/>
 
-        <Button x:Name="button_4" Grid.Column="0" Grid.Row="2" Content="4"  FontSize="22" Click="button_4_Click" MinHeight="80" MinWidth="80"/>
-        <Button x:Name="button_5" Grid.Column="1" Grid.Row="2" Content="5"  FontSize="22" Click="button_5_Click" MinHeight="80" MinWidth="80"/>
-        <Button x:Name="button_6" Grid.Column="2" Grid.Row="2" Content="6"  FontSize="22" Click="button_6_Click" MinHeight="80" MinWidth="80"/>
-        <Button x:Name="button_minus" Grid.Column="3" Grid.Row="2" Content="-"  FontSize="22" Click="button_minus_Click" MinHeight="80" MinWidth="80"/>
+        <Button x:Name="button_4"  Template="{StaticResource btn4}" Grid.Column="0" Grid.Row="2" Content="4"  FontSize="60" Click="button_4_Click" MinHeight="80" MinWidth="80"/>
+        <Button x:Name="button_5"   Template="{StaticResource btn5}"  Grid.Column="1" Grid.Row="2" Content="5"  FontSize="60" Click="button_5_Click" MinHeight="80" MinWidth="80"/>
+        <Button x:Name="button_6" Template="{StaticResource btn6}" Grid.Column="2" Grid.Row="2" Content="6"  FontSize="60" Click="button_6_Click" MinHeight="80" MinWidth="80"/>
+        <Button x:Name="button_minus" Template="{StaticResource btn_minus}" Grid.Column="3" Grid.Row="2" Content="-"  FontSize="45" Click="button_minus_Click" MinHeight="80" MinWidth="80"/>
 
-        <Button x:Name="button_1" Grid.Column="0" Grid.Row="3" Content="1"  FontSize="22" Click="button_1_Click" MinHeight="80" MinWidth="80"/>
-        <Button x:Name="button_2" Grid.Column="1" Grid.Row="3" Content="2"  FontSize="22" Click="button_2_Click" MinHeight="80" MinWidth="80"/>
-        <Button x:Name="button_3" Grid.Column="2" Grid.Row="3" Content="3"  FontSize="22" Click="button_3_Click" MinHeight="80" MinWidth="80"/>
-        <Button x:Name="button_plus" Grid.Column="3" Grid.Row="3" Content="+"  FontSize="22" Click="button_plus_Click" MinHeight="80" MinWidth="80"/>
+        <Button x:Name="button_1" Template="{StaticResource btn_1}" Grid.Column="0" Grid.Row="3" Content="1"  FontSize="60" Click="button_1_Click" MinHeight="80" MinWidth="80"/>
+        <Button x:Name="button_2" Template="{StaticResource btn_2}" Grid.Column="1" Grid.Row="3" Content="2"  FontSize="60" Click="button_2_Click" MinHeight="80" MinWidth="80"/>
+        <Button x:Name="button_3"  Template="{StaticResource btn_3}" Grid.Column="2" Grid.Row="3" Content="3"  FontSize="60" Click="button_3_Click" MinHeight="80" MinWidth="80"/>
+        <Button x:Name="button_plus" Template="{StaticResource btn_plus}" Grid.Column="3" Grid.Row="3" Content="+"  FontSize="45" Click="button_plus_Click" MinHeight="80" MinWidth="80"/>
 
-        <Button x:Name="button_0" Grid.Column="1" Grid.Row="4" Content="0"  FontSize="22" Click="button_0_Click" MinHeight="80" MinWidth="80"/>
-        <Button x:Name="button_delenie" Grid.Column="3" Grid.Row="4" Content="/"  FontSize="22" Click="button_delenie_Click" MinHeight="80" MinWidth="80"/>
-        <Button x:Name="button_ravno" Grid.Column="2" Grid.Row="4" Content="=" FontSize="22" Click="button_ravno_Click" MinHeight="80" MinWidth="80" KeyUp="button_ravno_KeyUp"/>
-        <Button x:Name="button_Clear" Grid.Column="0" Grid.Row="4" Content="C" FontSize="22" Click="button_Clear_Click" MinHeight="80" MinWidth="80"/>
+        <Button x:Name="button_0" Template="{StaticResource btn_0}" Grid.Column="1" Grid.Row="4" Content="0"  FontSize="60" Click="button_0_Click" MinHeight="80" MinWidth="80"/>
+        <Button x:Name="button_delenie" Template="{StaticResource btn_delenie}" Grid.Column="3" Grid.Row="4" Content="/"  FontSize="45" Click="button_delenie_Click" MinHeight="80" MinWidth="80"/>
+        <Button x:Name="button_ravno" Template="{StaticResource btn_ravno}" Grid.Column="2" Grid.Row="4" Content="=" FontSize="45" Click="button_ravno_Click" MinHeight="80" MinWidth="80" KeyUp="button_ravno_KeyUp"/>
+        <Button x:Name="button_Clear" Template="{StaticResource btn_clear}" Grid.Column="0" Grid.Row="4" Content="C" FontSize="60" Click="button_Clear_Click" MinHeight="80" MinWidth="80"/>
 
        
 
